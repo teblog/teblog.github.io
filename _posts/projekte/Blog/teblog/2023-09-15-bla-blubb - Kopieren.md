@@ -1,6 +1,6 @@
 ---
 layout: post
-title: blubbb
+title: Gsdds
 slug: code-and-memory
 ---
 
