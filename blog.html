@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-<div style="display: flex; flex-direction: column;">
+<section>
+  <!-- style="display: flex; flex-direction: column;" -->
 <!-- <section class="blog"> -->
     {% for post in site.posts limit:4 %}
       <a href="{{ site.baseurl }}{{ post.url }}"><h2>{{ post.title }}</h2></a>
@@ -17,4 +18,4 @@ layout: default
 <hr>
 <br>
 <a href="{{ site.baseurl }}"><h2>All posts</h2></a>
-</div>
+</section>
