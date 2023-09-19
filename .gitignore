@@ -1,6 +1,7 @@
-_site
-vendor
+tmp
+*.rdb
+.env
 .sass-cache
+.DS_Store
 .jekyll-cache
-.jekyll-metadata
-docker-compose.yml
+.git

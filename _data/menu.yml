@@ -1,9 +1,0 @@
-entries:
-  - title: posts
-    post_list: true
-
-  # - title: me
-  #   entries:
-  #     - title: github
-  #       url: http://github.com/riggraz/
-  #     - title: "keep in touch: <a href='/newsletter.html'>newsletter</a>, <a href='/feed.xml'>rss feed</a>"
