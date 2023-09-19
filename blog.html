@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<section class="blog">
+<!-- <section class="blog"> -->
     {% for post in site.posts limit 3%}
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ site.baseurl }}{{ post.url }}"><h2>{{ post.title }}</h2></a>
       <p>{{ post.content }}</p>
       <!-- <time datetime="{{ post.date | date_to_xmlschema }}"
         >{{ post.date | date: "%m-%d-%Y" }}</time> -->
@@ -13,4 +13,7 @@ layout: default
         <br>
         
     {% endfor %}
-</section>
+<!-- </section> -->
+<hr>
+<br>
+<a href="{{ site.baseurl }}"><h2>All posts</h2></a>
