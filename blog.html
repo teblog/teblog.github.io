@@ -4,7 +4,8 @@ layout: default
 <section>
   <!-- style="display: flex; flex-direction: column;" -->
 <!-- <section class="blog"> -->
-    {% for post in site.posts limit:4 %}
+  {% for post in site.posts limit:4 %}
+    <div class="postl">
       <a href="{{ site.baseurl }}{{ post.url }}"><h2>{{ post.title }}</h2></a>
       <p>{{ post.content }}</p>
       <!-- <time datetime="{{ post.date | date_to_xmlschema }}"
@@ -12,10 +13,10 @@ layout: default
         <!-- horizontal line -->
         <hr>
         <br>
-        
+    </div>
     {% endfor %}
 <!-- </section> -->
 <hr>
 <br>
-<a href="{{ site.baseurl }}"><h2>All posts</h2></a>
+<a href="/"><h2>All posts</h2></a>
 </section>
