@@ -1,7 +1,13 @@
+title: teblog
+# email: teblog@gmail.com
+description: teblog blog
+baseurl: ""
+url: "https://teblog.github.io/"
+github_username:  teblog
+
+
+
 site: teblog
-url: https://teblog.github.io
-title: teblog blog
-description: links and notes
 twitter:
   username: #yourusername
   card: summary
