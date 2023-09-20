@@ -5,8 +5,8 @@ date: 2023-09-18T10:02:35.571Z
 last_modified_at: 2023-09-18T12:20:07.900Z
 tags: 
 - blog
+- teblog
 - Blog
-- projekte
 ---
 Es gibt mehrere plugins für Static site generation.
 

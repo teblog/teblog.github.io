@@ -6,8 +6,8 @@ last_modified_at: 2023-09-19T07:20:28.365Z
 tags: 
 - links
 - blog
+- teblog
 - Blog
-- projekte
 ---
 > [Warteschlangensimulator](https://a-herzog.github.io/Warteschlangensimulator/): Fast and easy to use event-driven simulation.
 
